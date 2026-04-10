@@ -3,7 +3,7 @@ name: Teste NotaFiscal
 on:
   push:
     branches:
-      - master
+      - '**'
 
 jobs:
   test:
