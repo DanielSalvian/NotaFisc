@@ -1,7 +1,3 @@
 class NotaFiscal:
-    
-    def imposto(self,valornf):
-        
-        valor = valornf + valornf*0.10
-        
-        return valor
+    def imposto(self, valornf):
+        return valornf * 1.10
