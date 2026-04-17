@@ -1,4 +1,4 @@
-from nf.nfread import NotaFiscal
+from nf.calculo import NotaFiscal
 
 def test_conta():
     nf = NotaFiscal()
